@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('./header.css');
+@import url('./footer.css');
+@import url('./color.css');
+
+/* TODO: remover margin-bottom de header banner quando estiver na horizontal */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: 'Roboto';
+  background-image: url('../img/mtb-mountain.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}

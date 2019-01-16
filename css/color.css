@@ -1,0 +1,59 @@
+.bar-color {
+  background-color: #ffa500;
+}
+
+.h1-color {
+  color: #ffa500;
+}
+
+.txt-geral {
+  color: #ffffff;
+}
+.txt-darkgray {
+  color:  #2b2b2b;
+}
+
+.txt-descricao {
+  color: #000000;
+}
+
+.bg-header {
+  background-image: url('../img/cranck.png');
+  background-repeat: repeat;
+  background-size: 60px;
+}
+
+.bg-darkgray1 {
+  background-color:  #2b2b2b;
+}
+
+.bg-darkgray2 {
+  background-color:  #3d3d3d;
+}
+
+.bg-navbar {
+  background-color: #000000;
+}
+.bg-menu-link a {
+  color: #ffffff;
+}
+
+.bg-menu-item li:hover {
+  background-color: #ffa500;
+}
+
+.bg-descricao {
+  background-image: linear-gradient(to bottom right, #ffa500, #b93500);
+}
+
+.social a {
+  color: #ffffff;
+}
+
+.border-color {
+  border-color: #ffa500;
+}
+
+.bg-box {
+  background-color: #ffa500;
+}

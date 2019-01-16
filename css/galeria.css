@@ -1,0 +1,32 @@
+@import url('./master.css');
+main {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  width: 100%;
+  padding: 10px; 
+  background-color: #ffffff; 
+}
+
+h1 {
+  margin: 1rem;
+}
+
+.bar {
+  height: 6px;
+  border-radius: 3px;
+}
+
+@media screen and (min-width: 800px) {
+  section {
+    width: 780px;
+  }
+}
+
+@media screen and (min-width: 1100px) and (min-height:  800px) {
+  section {
+    width: 1100px;
+  }
+}
