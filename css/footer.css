@@ -40,7 +40,7 @@ footer  .copyright {
   text-align: center;
 }
 
-@media screen and (min-width: 330px){
+@media screen and (min-width: 375px){
   footer .container {
     display: flex;
     flex-direction: row;
