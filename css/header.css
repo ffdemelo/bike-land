@@ -109,6 +109,7 @@ header .banner img {
 }
 
 .navbar li a {
+  display: block;
   text-decoration: none;
 }
 
