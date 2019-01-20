@@ -101,11 +101,13 @@ header .banner img {
 .navbar li {
   text-align: center;
   padding: 10px;
-  border-top: 1px solid black;
+  border-top-width: 1px;
+  border-top-style: solid;
 }
 
 .navbar li:last-child {
-  border-bottom:  1px solid black;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
 }
 
 .navbar li a {

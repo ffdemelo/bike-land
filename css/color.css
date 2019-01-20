@@ -42,6 +42,11 @@
   background-color: #ffa500;
 }
 
+.menu-border li {
+  border-top-color: #ffa500;
+  border-bottom-color: #ffa500;
+}
+
 .bg-descricao {
   background-image: linear-gradient(to bottom right, #ffa500, #b93500);
 }
