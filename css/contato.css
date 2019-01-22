@@ -75,7 +75,7 @@ h1 {
 }
 
 .btn-send:active {
-  transform: translate(2px, 2px);
+  transform: translate(2px, 3px);
 }
 
 @media screen and (min-width: 375px) {
