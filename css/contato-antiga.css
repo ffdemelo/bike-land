@@ -1,11 +1,12 @@
 @import url('./master.css');
 main {
   display: flex;
-  justify-content: center; 
+  justify-content: center;   
 }
 
 section {
   width: 100%;
+  height: 100vh;
   padding: 10px;
   background-color: #ffffff; 
 }
@@ -21,41 +22,47 @@ h1 {
 
 .container-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
+  grid-template-columns: 1fr;
 }
 
 * {
   margin: 0;
 }
 
-.card {
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    border-width: 3px;
-    border-style: solid;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+fieldset h3 {
+  padding: 0 10px;
 }
 
-.card img {
-  width: 100%;
+fieldset .entradas {
+  display: flex;
+  flex-direction: column;
 }
 
-.card .description {
-  color: white;
-  text-align: center;
-  margin: 5px 0;
-  text-align: center;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+.container-grid fieldset {
+  margin: 10px;
+  width: 80%;
+}
+
+.container-grid .entradas label{
+  color: rgb(14, 163, 0);
+  margin: 15px 10px 5px;
+}
+
+.container-grid .entradas input{
+  margin: 0 10px 0;
+  width: 80%;
+}
+
+.container-grid .entradas textarea{
+  margin: 0 10px 0;
+  width: 80%;
+  font-size: 0.8rem;
 }
 
 @media screen and (min-width: 375px) {
   .container-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
