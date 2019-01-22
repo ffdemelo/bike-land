@@ -20,21 +20,30 @@ h1 {
 }
 
 .container-grid {
-  padding: 10px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
 }
 
 .container-grid fieldset {
+  padding: 10px;
   border: none;
+}
+
+.container-grid .map {
+  padding: 10px 0;
+}
+
+.container-grid iframe {
+  padding: 10px;
+  width: calc(100% - 20px);
 }
 
 * {
   margin: 0;
 }
 
-.container-grid h3 {
+.container-grid h3, .map h3 {
   text-align: center;
 }
 
@@ -44,7 +53,7 @@ h1 {
 }
 
 .container-grid .entradas label {
-  margin-top: 15px;
+  margin: 15px 0 5px;
 }
 
 .container-grid .entradas input {
@@ -56,6 +65,17 @@ h1 {
 .container-grid .entradas textarea {
   border-width: 1px;
   border-style: solid;
+}
+
+.btn-send {
+  width: fit-content;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.btn-send:active {
+  transform: translate(2px, 2px);
 }
 
 @media screen and (min-width: 375px) {
