@@ -20,18 +20,42 @@ h1 {
 }
 
 .container-grid {
+  padding: 10px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
+}
+
+.container-grid fieldset {
+  border: none;
 }
 
 * {
   margin: 0;
 }
 
+.container-grid h3 {
+  text-align: center;
+}
+
 .container-grid .entradas {
   display: flex;
   flex-direction: column;
+}
+
+.container-grid .entradas label {
+  margin-top: 15px;
+}
+
+.container-grid .entradas input {
+  height: 40px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.container-grid .entradas textarea {
+  border-width: 1px;
+  border-style: solid;
 }
 
 @media screen and (min-width: 375px) {
